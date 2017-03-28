@@ -3,7 +3,7 @@
 
 
 Warrior::Warrior(std::string name, int startingHealth, std::string swordType) :
-Character(name, startingHealth), _swordType(swordType)
+Character(name, startingHealth), _swordType()
 {
 }
 
@@ -14,6 +14,6 @@ Warrior::~Warrior()
 
 std::string Warrior::Taunt()
 {
-  return "Hey badguys attack me!\n";
+  return "IM GOING TO RIP OUT YOUR G** **** SPINE!!" ;
 }
 

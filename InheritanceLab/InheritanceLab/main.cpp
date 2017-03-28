@@ -1,18 +1,20 @@
 #include <iostream>
 #include "Warrior.h"
 #include "Archer.h"
-  //for got to add in the berserker header file and found the error i created after trying to implement my own code. 
+  //for got to add in the berserker header file and found the error i created after trying to implement my own code.
 #include "Berserker.h"
 using namespace std;
 
 void DisplayCharacterInfo(Character theCharacter);
 void Attack(Character theCharacter);
 void Taunt(Warrior theCharacter);
+  //add in BattleCry() taunt call method to see is the method would call fthe taunt, however this does not work.
+void BattleCry(Berserker theCharacter);
 
 
 int main()
 {
-  auto player1 = Character("Kenshin", 100);
+  auto player1 = Character("Kenshin", 100, "Katana");
   DisplayCharacterInfo(player1);
   
   system("pause");
@@ -32,10 +34,13 @@ int main()
   
   system("cls");
   Attack(player1);
-  Attack(player2);
-  //Displays the taunt message for the Warrior class.
+  //display Warrior taunt and attack
   Taunt(player2);
+  Attack(player2);
   Attack(player3);
+  //display Berserker taunt and attack
+  BattleCry(player4);
+  Attack(player4);
   
   
   
@@ -58,4 +63,9 @@ void Attack(Character theCharacter)
 void Taunt(Warrior theCharacter)
 {
   cout << theCharacter.Taunt();
+}
+  //void message to call for the taunt to come to the screen
+void BattleCry(Berserker theCharacter)
+{
+  cout << theCharacter.BattleCry();
 }

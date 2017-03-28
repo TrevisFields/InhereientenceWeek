@@ -7,7 +7,7 @@ class Berserker : 	public Warrior
 private:
   
 public:
-  Berserker(std::string name, int startingHealth, std::string axeType);
+  Berserker(std::string name, int startingHealth, std::string weaponType);
   ~Berserker();
   
   std::string BattleCry();

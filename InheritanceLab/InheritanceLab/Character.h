@@ -9,7 +9,7 @@ private:
   //optional code
   std::string _weaponType;
 public:
-  Character(std::string name, int startingHealth);
+  Character(std::string name, int startingHealth, std::string weaponType);
   ~Character();
   
   std::string getName() { return _name; }
