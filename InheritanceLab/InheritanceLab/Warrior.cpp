@@ -14,5 +14,6 @@ Warrior::~Warrior()
 
 std::string Warrior::Taunt()
 {
-  return "Hey badguys attack me!";
+  return "Hey badguys attack me!\n";
 }
+

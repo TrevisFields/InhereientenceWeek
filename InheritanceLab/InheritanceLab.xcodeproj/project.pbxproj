@@ -69,15 +69,15 @@
 		6ECF5A0B1E89730B0014D954 /* InheritanceLab */ = {
 			isa = PBXGroup;
 			children = (
-				6ECF5A0C1E89730B0014D954 /* main.cpp */,
 				6ECF5A131E8973E80014D954 /* Character.h */,
-				6ECF5A141E8973FB0014D954 /* Character.cpp */,
+				6ECF5A1E1E897DF60014D954 /* Berserker.h */,
 				6ECF5A161E8975640014D954 /* Warrior.h */,
-				6ECF5A171E8975770014D954 /* Warrior.cpp */,
 				6ECF5A191E8977660014D954 /* Archer.h */,
+				6ECF5A0C1E89730B0014D954 /* main.cpp */,
+				6ECF5A141E8973FB0014D954 /* Character.cpp */,
+				6ECF5A171E8975770014D954 /* Warrior.cpp */,
 				6ECF5A1A1E8977740014D954 /* Archer.cpp */,
 				6ECF5A1C1E897DE90014D954 /* Berserker.cpp */,
-				6ECF5A1E1E897DF60014D954 /* Berserker.h */,
 			);
 			path = InheritanceLab;
 			sourceTree = "<group>";
