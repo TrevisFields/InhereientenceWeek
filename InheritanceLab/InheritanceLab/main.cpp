@@ -14,7 +14,7 @@ void BattleCry(Berserker theCharacter);
 
 int main()
 {
-  auto player1 = Character("Kenshin", 100, "Katana");
+  auto player1 = Character("Kenshin", 100);
   DisplayCharacterInfo(player1);
   
   system("pause");

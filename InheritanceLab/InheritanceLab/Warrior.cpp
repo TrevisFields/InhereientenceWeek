@@ -3,7 +3,7 @@
 
 
 Warrior::Warrior(std::string name, int startingHealth, std::string swordType) :
-Character(name, startingHealth), _swordType()
+Character(name, startingHealth)
 {
 }
 
